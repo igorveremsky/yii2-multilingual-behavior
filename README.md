@@ -168,3 +168,6 @@ Form example:
 $form->field($model, 'title')->textInput(['maxlength' => 255]);
 $form->field($model, 'title_en')->textInput(['maxlength' => 255]);
 ```
+
+**Hint:** ```$model``` need to be populated with ```translations``` relative data, otherwise 
+model will not be update after ```$form``` send.
